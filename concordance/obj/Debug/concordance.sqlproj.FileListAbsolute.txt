@@ -1,0 +1,16 @@
+C:\Git\shay\concordance-website\newsql\concordance\bin\Debug\concordance.dacpac
+C:\Git\shay\concordance-website\newsql\concordance\obj\Debug\concordance.sqlproj.AssemblyReference.cache
+C:\Git\shay\concordance-website\newsql\concordance\obj\Debug\concordance.dll
+C:\Git\shay\concordance-website\newsql\concordance\obj\Debug\concordance.pdb
+C:\Git\shay\concordance-website\newsql\concordance\bin\Debug\concordance.dll
+C:\Git\shay\concordance-website\newsql\concordance\bin\Debug\concordance.pdb
+C:\Git\shay\concordance-database\concordance\bin\Debug\concordance.dacpac
+C:\Git\shay\concordance-database\concordance\bin\Debug\concordance.dll
+C:\Git\shay\concordance-database\concordance\bin\Debug\concordance.pdb
+C:\Git\shay\concordance-database\concordance\obj\Debug\concordance.sqlproj.AssemblyReference.cache
+C:\Git\shay\concordance-database\concordance\obj\Debug\Model.xml
+C:\Git\shay\concordance-database\concordance\obj\Debug\refactor.xml
+C:\Git\shay\concordance-database\concordance\obj\Debug\postdeploy.sql
+C:\Git\shay\concordance-database\concordance\obj\Debug\predeploy.sql
+C:\Git\shay\concordance-database\concordance\obj\Debug\concordance.dll
+C:\Git\shay\concordance-database\concordance\obj\Debug\concordance.pdb
