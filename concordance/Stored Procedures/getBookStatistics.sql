@@ -35,7 +35,7 @@ BEGIN
                 AVG(AvgCharChapter) AS AvgChapterCharsPerBook,
                 AVG(AvgCharParagraph) AS AvgParagraphCharsPerBook,
                 AVG(AvgCharBook) AS AvgBookCharsPerBook,
-                COUNT([BookStat].[BookID]) AS TotalBooks,
+                SUM([BookStat].[BookID]) AS TotalBooks,
                 AVG(TotalWords) AS AvgWordsPerBook,
                 SUM(TotalWords) AS TotalWords,
                 AVG(TotalLines) AS AvgLinesPerBook,

@@ -25,3 +25,23 @@ BEGIN
 
 END;
 GO;
+
+CREATE PROCEDURE [dbo].[InsertWordGroupByBookName](
+   @WordGroupName VARCHAR(MAX),
+   @Words [WordGroupWords] READONLY,
+   @BookName VARCHAR(256)
+)
+
+AS
+BEGIN
+
+    DECLARE @BookID INT;
+    SELECT TOP 1 @BookID = BookID
+    FROM Book b
+    WHERE b.BookName = @BookName
+
+    IF @BookID IS NOT NULL
+        EXEC [dbo].[InsertWordGroup] @BookID = @BookID, @WordGroupName = @WordGroupName, @Words = @Words;
+
+END;
+GO;

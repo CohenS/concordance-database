@@ -182,8 +182,8 @@ GO;
 
 CREATE  PROCEDURE UpdateWordGroup
 (
-   DECLARE @BookID INT = 134010
-   DECLARE @WordGroupName VARCHAR(256) = 'names'
+   @BookID INT,
+   @WordGroupName VARCHAR(256),
    @Words [WordGroupWords] READONLY
 )
 
